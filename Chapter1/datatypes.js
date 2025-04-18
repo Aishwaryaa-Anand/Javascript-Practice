@@ -20,17 +20,16 @@ console.log(typeof city)  //null-->object
 SUMMARY:
 
 primitive datatypes
-1.string
-2.number
-3.boolean
-4.undefined
-5.null
-6.bigInt
-7.symbol
+1.string => "", '', `extended functionality`(allow us to embed variables and expressions into a string by wrapping them in ${…})
+2.number => to represent integers, floats, decimals.
+3.boolean => true and false
+4.undefined => If a variable is declared, but not assigned.
+5.null => It’s just a special value which represents “nothing”, “empty” or “value unknown”.
+6.bigInt => to represent integers of arbitrary length(2^53).
+7.symbol => used to create unique identifiers for objects.
+//There is no character type.
 
 Non-primitive:
-1.Object
-2.Arrays
-3.Functions
+1.Object => objects are used to store collections of data and more complex entities.
 
 */
